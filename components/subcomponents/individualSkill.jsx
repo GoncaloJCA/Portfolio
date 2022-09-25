@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-const individualSkill = (path, name) => {
+const individualSkill = ({path, name}) => {
     console.log(path + name);
     return (
         <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>

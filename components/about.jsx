@@ -19,7 +19,7 @@ const about = () => {
                 <p className='pt-1 text-[#696258]'>
                     My favorite hobbies are gaming, playing ukulele or do some sports like running or swimming.
                 </p>
-                <p className='pt-1 text-[#696258] underline cursor-pointer '>
+                <p className='py-2 text-[#696258] underline cursor-pointer '>
                     Check my projects
                 </p>
             </div>

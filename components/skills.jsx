@@ -1,5 +1,5 @@
 import React from 'react'
-import individualSkill from './subcomponents/individualSkill'
+import IndividualSkill from './subcomponents/individualSkill'
 import Image from 'next/image'
 const skills = () => {
   return (
@@ -10,180 +10,44 @@ const skills = () => {
         <h3 className='text-[#a29687] py-2 text-xl tracking-wider'>Languages</h3>
         <div className='grid md:grid-cols-2 lg:grid-cols-5 gap-8'>
 
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src='/../public/assets/skills/js.png' alt='/' width='64px' height='64px'/>
-              </div>
-              <div className='text-[#4d4740]'>
-                <h3>Javascript</h3>
-              </div>
-            </div>
-          </div>
-
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src='/../public/assets/skills/java.png' alt='/' width='64px' height='64px'/>
-              </div>
-              <div className='text-[#4d4740]'>
-                <h3>Java</h3>
-              </div>
-            </div>
-          </div>
-
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src='/../public/assets/skills/python1.png' alt='/' width='64px' height='64px'/>
-              </div>
-              <div className='text-[#4d4740]'>
-                <h3>Python</h3>
-              </div>
-            </div>
-          </div>
-
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src='/../public/assets/skills/sap1.png' alt='/' width='64px' height='64px'/>
-              </div>
-              <div className='text-[#4d4740]'>
-                <h3>ABAP</h3>
-              </div>
-            </div>
-          </div>
-
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src='/../public/assets/skills/csharp.png' alt='/' width='64px' height='64px'/>
-              </div>
-              <div className='text-[#4d4740]'>
-                <h3>C#</h3>
-              </div>
-            </div>
-          </div>
+          <IndividualSkill path='/../public/assets/skills/js.png' name='Javascript'></IndividualSkill>
+          <IndividualSkill path='/../public/assets/skills/java.png' name='Java'></IndividualSkill>
+          <IndividualSkill path='/../public/assets/skills/python1.png' name='Python'></IndividualSkill>
+          <IndividualSkill path='/../public/assets/skills/sap2.png' name='ABAP'></IndividualSkill>
+          <IndividualSkill path='/../public/assets/skills/csharp.png' name='C#'></IndividualSkill>
 
         </div> 
 
 
         <h3 className='text-[#a29687] py-2 text-xl tracking-wider'>Frontend</h3>
         <div className='grid md:grid-cols-2 lg:grid-cols-5 gap-8'>
-          
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src='/../public/assets/skills/react1.png' alt='/' width='64px' height='64px'/>
-              </div>
-              <div className='text-[#4d4740]'>
-                <h3>ReactJS</h3>
-              </div>
-            </div>
-          </div>
 
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src='/../public/assets/skills/nextJS.png' alt='/' width='64px' height='64px'/>
-              </div>
-              <div className='text-[#4d4740]'>
-                <h3>NextJS</h3>
-              </div>
-            </div>
-          </div>
-
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src='/../public/assets/skills/mui.png' alt='/' width='64px' height='64px'/>
-              </div>
-              <div className='text-[#4d4740]'>
-                <h3>Material UI</h3>
-              </div>
-            </div>
-          </div>
+          <IndividualSkill path='/../public/assets/skills/react1.png' name='ReactJS'></IndividualSkill>
+          <IndividualSkill path='/../public/assets/skills/nextJS.png' name='NextJS'></IndividualSkill>
+          <IndividualSkill path='/../public/assets/skills/mui.png' name='Material UI'></IndividualSkill>
 
         </div>    
 
         <h3 className='text-[#a29687] py-2 text-xl tracking-wider'>Backend</h3>
         <div className='grid md:grid-cols-2 lg:grid-cols-5 gap-8'>
-          
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src='/../public/assets/skills/node-js.png' alt='/' width='64px' height='64px'/>
-              </div>
-              <div className='text-[#4d4740]'>
-                <h3>NodeJS</h3>
-              </div>
-            </div>
-          </div>
 
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src='/../public/assets/skills/express.png' alt='/' width='64px' height='64px'/>
-              </div>
-              <div className='text-[#4d4740]'>
-                <h3>Express</h3>
-              </div>
-            </div>
-          </div>
+          <IndividualSkill path='/../public/assets/skills/nodejs2.png' name='NodeJS Express'></IndividualSkill>
 
         </div> 
 
         <h3 className='text-[#a29687] py-2 text-xl tracking-wider'>Databases</h3>
         <div className='grid md:grid-cols-2 lg:grid-cols-5 gap-8'>
-          
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src='/../public/assets/skills/postgres.png' alt='/' width='64px' height='64px'/>
-              </div>
-              <div className='text-[#4d4740]'>
-                <h3>Postgres</h3>
-              </div>
-            </div>
-          </div>
 
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src='/../public/assets/skills/sqlServer.png' alt='/' width='64px' height='64px'/>
-              </div>
-              <div className='text-[#4d4740]'>
-                <h3>SQLServer</h3>
-              </div>
-            </div>
-          </div>
-
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src='/../public/assets/skills/cloud-firestore.png' alt='/' width='64px' height='64px'/>
-              </div>
-              <div className='text-[#4d4740]'>
-                <h3>Firestore</h3>
-              </div>
-            </div>
-          </div>
+          <IndividualSkill path='/../public/assets/skills/postgres.png' name='Postgres'></IndividualSkill>
+          <IndividualSkill path='/../public/assets/skills/sqlserver.png' name='SQLServer'></IndividualSkill>
+          <IndividualSkill path='/../public/assets/skills/cloud-firestore.png' name='Firestore'></IndividualSkill>
 
         </div>  
 
         <h3 className='text-[#a29687] py-2 text-xl tracking-wider'>Cloud</h3>
         <div className='grid md:grid-cols-2 lg:grid-cols-5 gap-8'>
           
-          <div className='p-6 shadow-xl rounded-xl hover:scale-110 ease-in duration-300'>
-            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
-              <div className='m-auto'>
-                <Image src='/../public/assets/skills/gCloud.png' alt='/' width='64px' height='64px'/>
-              </div>
-              <div className='text-[#4d4740]'>
-                <h3>Google Could Platform</h3>
-              </div>
-            </div>
-          </div>
+          <IndividualSkill path='/../public/assets/skills/gCloud1.png' name='Google Could Platform'></IndividualSkill>
 
         </div>    
 
