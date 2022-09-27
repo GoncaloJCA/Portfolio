@@ -23,7 +23,7 @@ const about = () => {
                     Check my projects
                 </p>
             </div>
-            <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 flex items-center justify-center p-2 hover:scale-105 ease-in duration-300'>
+            <div className='w-full h-auto m-auto rounded-xl shadow-xl shadow-gray-400 flex items-center justify-center p-2 hover:scale-105 ease-in duration-300'>
                 <img className='rounded-xl'  src='https://images.unsplash.com/photo-1628187526295-3ccbe4e2ad54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80' alt='/'></img>
             </div>
         </div>

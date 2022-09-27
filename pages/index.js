@@ -6,6 +6,7 @@ import Main from '../components/main'
 import About from '../components/about'
 import Skills from '../components/skills'
 import Projects from '../components/projects'
+import Contact from '../components/contact'
 
 
 export default function Home() {
@@ -18,12 +19,14 @@ export default function Home() {
             <link rel="icon" href="/favicon.ico" />
           </Head>
         </div>
-        <div>
-          <Navbar></Navbar>
+        <Navbar></Navbar>
+        <div className='ml-4 mr-4'>
+          
           <Main></Main>
           <About></About>
           <Skills></Skills>
           <Projects></Projects>
+          <Contact></Contact>
         </div>
     </div>
    
