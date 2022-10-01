@@ -9,16 +9,16 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
 const contact = () => {
   return (
-    <div className='w-full lg:h-screen'>
-        <div className='max-w-[1240px] m-auto ps-2 py-16 w-full items-start'>
+    <div id='contact' className='w-full lg:h-screen'>
+        <div className='max-w-[1240px] m-auto ps-2 py-36 w-full items-start '>
             <h3 className='text-[#a29687] uppercase text-xl tracking-wider'>Contact</h3>
             <h2 className='text-[#4d4740] py-6'>Get in touch</h2> 
             <div className='grid lg:grid-cols-5 gap-8'>
                 {/* left side */}
-                <div className='col-span-3 lg:col-span-2 w-full lg:h-4/6 shadow-xl shadow-gray-400 rounded-xl p-1'>
+                <div className='col-span-3 lg:col-span-2 w-full lg:h-4/6 shadow-xl shadow-gray-400 rounded-xl p-1 hover:scale-105 ease-in duration-300'>
                     <div className='lg:p-4 mr-3 ml-3'>
                         <div>
-                            <img className='rounded-xl hover:scale-105 ease-in duration-300' src="https://usa.visa.com/dam/VCOM/global/contact-us/woman-using-laptop-on-office-desk-800x450.jpg">
+                            <img className='rounded-xl' src="https://usa.visa.com/dam/VCOM/global/contact-us/woman-using-laptop-on-office-desk-800x450.jpg">
                             </img>
                         </div>
                         <div>
@@ -29,10 +29,14 @@ const contact = () => {
                             <h3 className='uppercase  text-[#4d4740]'>Connect with me</h3>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <FaLinkedinIn></FaLinkedinIn>
+                                    <a href='https://www.linkedin.com/in/goncaloalbuquerque/' target='_blank'>
+                                        <FaLinkedinIn></FaLinkedinIn>
+                                    </a>
                                 </div>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <FaGithub></FaGithub>
+                                    <a href='https://github.com/GoncaloJCA' target='_blank'>
+                                        <FaGithub></FaGithub>
+                                    </a>
                                 </div>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                     <AiOutlineMail></AiOutlineMail>
@@ -47,7 +51,7 @@ const contact = () => {
                 
 
                 {/* right side */}
-                <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
+                <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 hover:scale-105 ease-in duration-300'>
                     <div className='p-4  mr-3 ml-3'>
                     <form
                         action='https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060'

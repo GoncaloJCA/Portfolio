@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+
+    scroll-behavior:smooth;
+}
+
+#container{
+    overflow-y: scroll;
+}
+
 @layer base {
     body {
         @apply bg-[#f7e5ce] text-black
@@ -27,3 +36,27 @@
         @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
     }
 }
+
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

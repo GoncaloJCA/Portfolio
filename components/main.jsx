@@ -5,7 +5,7 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
 
 const main = () => {
   return (
-    <div className='w-full h-screen text-center'>
+    <div id='home' className='w-full h-screen text-center'>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center hover:scale-110 ease-in-out duration-300'>
             <div>
                 <h2 className='uppercase text-sm tracking-widest text-[#4d4740]'>Let's build something together</h2>
@@ -24,13 +24,17 @@ const main = () => {
                         <BsFillPersonLinesFill></BsFillPersonLinesFill>
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 ease-in duration-300'>
-                        <FaLinkedinIn></FaLinkedinIn>
+                        <a href='https://www.linkedin.com/in/goncaloalbuquerque/' target='_blank'>
+                            <FaLinkedinIn></FaLinkedinIn>
+                        </a>
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 ease-in duration-300'>
                         <AiOutlineMail></AiOutlineMail>
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 ease-in duration-300'>
-                        <FaGithub></FaGithub>
+                        <a href='https://github.com/GoncaloJCA' target='_blank'>
+                            <FaGithub></FaGithub>
+                        </a>
                     </div>
                 </div>
             </div>
