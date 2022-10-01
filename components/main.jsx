@@ -2,7 +2,7 @@ import React from 'react'
 import {AiOutlineMail} from 'react-icons/ai'
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
-
+import Curriculum from '/../public/assets/curriculum-vitae-Gonçalo_Albuquerque.pdf'
 const main = () => {
   return (
     <div id='home' className='w-full h-screen text-center'>
@@ -37,6 +37,9 @@ const main = () => {
                         </a>
                     </div>
                 </div>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                    <a href={Curriculum} download='Gonçalo Albuquerque'>Curriculum Vitae</a>
+                </button>
             </div>
         </div>  
     </div>
