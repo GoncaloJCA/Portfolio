@@ -7,7 +7,7 @@ const individualProject = ({title, backgroundImg, url}) => {
         <Image className='rounded-xl group-hover:opacity-10' src={backgroundImg} alt='/' ></Image>
         <div className='w-[450px] hidden group-hover:block absolute top-[25%] '>
           <h2 className='py-2 text-2xl text-white tracking-wide text-center'>{title}</h2>
-            <Link className='' href={url}>
+            <Link href={url}>
                 <h2 className=' text-center  py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'> More info</h2>
             </Link>
         </div>

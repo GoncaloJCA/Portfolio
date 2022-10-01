@@ -11,7 +11,7 @@ const projects = () => {
             <div className='grid md:grid-cols-2 gap-8'>
                  
                 <IndividualProject title='Surf Club Management Application' backgroundImg={surfManagementAppImg} url={'/surf'}/>
-                <IndividualProject title='ToDo App' backgroundImg={surfManagementAppImg} url={'/'}/>
+                <IndividualProject title='ToDo App'  url={'/'}/>
 
             </div>
         </div>

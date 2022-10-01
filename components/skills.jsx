@@ -13,7 +13,7 @@ const skills = () => {
           <IndividualSkill path='/../public/assets/skills/js.png' name='Javascript'></IndividualSkill>
           <IndividualSkill path='/../public/assets/skills/java.png' name='Java'></IndividualSkill>
           <IndividualSkill path='/../public/assets/skills/python1.png' name='Python'></IndividualSkill>
-          <IndividualSkill path='/../public/assets/skills/sap2.png' name='ABAP'></IndividualSkill>
+          <IndividualSkill path='/../public/assets/skills/sap3.png' name='ABAP'></IndividualSkill>
           <IndividualSkill path='/../public/assets/skills/csharp.png' name='C#'></IndividualSkill>
 
         </div> 

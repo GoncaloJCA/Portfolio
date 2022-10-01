@@ -2,7 +2,7 @@ import React from 'react'
 import {AiOutlineMail} from 'react-icons/ai'
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
-import Curriculum from '/../public/assets/curriculum-vitae-Gonçalo_Albuquerque.pdf'
+
 const main = () => {
   return (
     <div id='home' className='w-full h-screen text-center'>
@@ -19,7 +19,7 @@ const main = () => {
                     I have a background in web development, both frontend and backend, aiming towards a user-friendly experience.
                 </p>
 
-                <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
+                <div className='flex items-center justify-between max-w-[330px] m-auto py-4 pb-8'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 ease-in duration-300'>
                         <BsFillPersonLinesFill></BsFillPersonLinesFill>
                     </div>
@@ -37,9 +37,10 @@ const main = () => {
                         </a>
                     </div>
                 </div>
-                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-                    <a href={Curriculum} download='Gonçalo Albuquerque'>Curriculum Vitae</a>
+                <button className=" text-white font-bold py-2 px-4 rounded-full " >
+                    <a target='_blank' href={'https://www.linkedin.com/in/goncaloalbuquerque/overlay/1635503562596/single-media-viewer/'} >Curriculum Vitae</a>
                 </button>
+
             </div>
         </div>  
     </div>
