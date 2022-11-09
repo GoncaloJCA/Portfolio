@@ -5,7 +5,7 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
 
 const main = () => {
   return (
-    <div id='home' className='w-full h-screen text-center'>
+    <div id='home' className='w-full lg:h-screen text-center'>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center hover:scale-110 ease-in-out duration-300'>
             <div>
                 <h2 className='uppercase text-sm tracking-widest text-[#4d4740]'>Let's build something together</h2>
@@ -19,17 +19,16 @@ const main = () => {
                     I have a background in web development, both frontend and backend, aiming towards a user-friendly experience.
                 </p>
 
-                <div className='flex items-center justify-between max-w-[330px] m-auto py-4 pb-8'>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 ease-in duration-300'>
-                        <BsFillPersonLinesFill></BsFillPersonLinesFill>
-                    </div>
+                <div className='flex items-center justify-between max-w-[250px] m-auto py-4 pb-8'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 ease-in duration-300'>
                         <a href='https://www.linkedin.com/in/goncaloalbuquerque/' target='_blank'>
                             <FaLinkedinIn></FaLinkedinIn>
                         </a>
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 ease-in duration-300'>
-                        <AiOutlineMail></AiOutlineMail>
+                        <a href='/#contact' >
+                            <AiOutlineMail></AiOutlineMail>
+                        </a>
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-105 ease-in duration-300'>
                         <a href='https://github.com/GoncaloJCA' target='_blank'>

@@ -4,8 +4,8 @@ import Timeline from './subcomponents/timeline'
 
 const about = () => {
   return (
-        <div id='about' className='w-full md:h-screen p-2 flex items-center py-36'>
-            <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
+        <div id='about' className='w-full lg:h-screen items-center p-2 py-36 '>
+            <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 '>
                 <div className='col-span-2 p-2 '>
                     <h3 className='text-[#a29687] py-2 uppercase text-xl tracking-wider'>About</h3>
                     <h2 className='text-[#4d4740] py-2'>Who Am I?</h2>

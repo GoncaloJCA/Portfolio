@@ -9,8 +9,8 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
 const contact = () => {
   return (
-    <div id='contact' className='w-full lg:h-screen'>
-        <div className='max-w-[1240px] m-auto ps-2 py-36 w-full items-start '>
+    <div id='contact' className='w-full lg:h-screen p-2 py-36'>
+        <div className='max-w-[1240px] m-auto w-full h-full items-start '>
             <h3 className='text-[#a29687] uppercase text-xl tracking-wider'>Contact</h3>
             <h2 className='text-[#4d4740] py-6'>Get in touch</h2> 
             <div className='grid lg:grid-cols-5 gap-8'>
@@ -27,7 +27,7 @@ const contact = () => {
                         </div>
                         <div className='pt-5 '>
                             <h3 className='uppercase  text-[#4d4740]'>Connect with me</h3>
-                            <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
+                            <div className='flex items-center justify-between my-4 max-w-[110px] sm:w-[80%]'>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                     <a href='https://www.linkedin.com/in/goncaloalbuquerque/' target='_blank'>
                                         <FaLinkedinIn></FaLinkedinIn>
@@ -37,12 +37,6 @@ const contact = () => {
                                     <a href='https://github.com/GoncaloJCA' target='_blank'>
                                         <FaGithub></FaGithub>
                                     </a>
-                                </div>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <AiOutlineMail></AiOutlineMail>
-                                </div>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <BsFillPersonLinesFill></BsFillPersonLinesFill>
                                 </div>
                             </div>
                         </div>
