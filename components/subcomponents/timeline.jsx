@@ -15,12 +15,19 @@ const timeline = () => {
             <h2 className='text-[#4d4740] py-2'>2022</h2>
             <p className=' text-[#696258]' >Finished my Bachelor's degree in Computer Science and Software Engineering.</p>
             <p className=' text-[#696258]'>Grade: <span className='font-bold text-[#4d4740]'>15</span></p>
+            <p className=' text-[#696258]'>Final Project: <span className='font-bold text-[#4d4740]'>18</span></p>
             </div>
         </div>
         <div class="container left">
             <div class="content">
             <h2 className='text-[#4d4740] py-2'>2022</h2>
             <p className=' text-[#696258]'>Started working in <span className='font-bold underline cursor-pointer text-[#712afd]' href='https://www.stratesys-ts.com/en/'>Stratesys</span> as a Technical Analyst.</p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+            <h2 className='text-[#4d4740] '>2023</h2>
+            <p className=' text-[#696258]'>Started working in <span className='font-bold underline cursor-pointer text-[#712afd]' href='https://neotalent.pt/en/'>Neotalent</span> as a IT Analyst/Programmer, fully assigned to the client <span className='font-bold underline cursor-pointer text-[#712afd]' href='https://www.leasys.com'>Leasys</span> .</p>
             </div>
         </div>
         

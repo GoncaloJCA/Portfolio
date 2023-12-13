@@ -5,8 +5,8 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
 
 const main = () => {
   return (
-    <div id='home' className='w-full lg:h-screen text-center'>
-        <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center hover:scale-110 ease-in-out duration-300'>
+    <div id='home' className='w-full lg:h-screen items-center text-center'>
+        <div className='max-w-[1500px] w-full h-full mx-auto p-2 flex justify-center items-center hover:scale-110 ease-in-out duration-300'>
             <div>
                 <h2 className='uppercase text-sm tracking-widest text-[#4d4740]'>Let's build something together</h2>
                 <h1 className='py-4 text-[#4d4740]'> Hi, I'm <span className='text-[#8C52FF]'> Gonçalo </span> </h1>
@@ -39,7 +39,6 @@ const main = () => {
                 <button className=" text-white font-bold py-2 px-4 rounded-full " >
                     <a target='_blank' href={'https://www.linkedin.com/in/goncaloalbuquerque/overlay/1635503562596/single-media-viewer/'} >Curriculum Vitae</a>
                 </button>
-
             </div>
         </div>  
     </div>

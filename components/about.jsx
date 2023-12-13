@@ -5,7 +5,7 @@ import Timeline from './subcomponents/timeline'
 const about = () => {
   return (
         <div id='about' className='w-full lg:h-screen items-center p-2 py-36 '>
-            <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 '>
+            <div className='max-w-[1500px] m-auto md:grid grid-cols-3 gap-8 '>
                 <div className='col-span-2 p-2 '>
                     <h3 className='text-[#a29687] py-2 uppercase text-xl tracking-wider'>About</h3>
                     <h2 className='text-[#4d4740] py-2'>Who Am I?</h2>
@@ -26,7 +26,7 @@ const about = () => {
                     <Timeline></Timeline>
                 </div>
                 <div className='w-full h-auto m-auto rounded-xl shadow-xl shadow-gray-400 flex items-center justify-center p-2 hover:scale-105 ease-in duration-300'>
-                    <img className='rounded-xl'  src='https://images.unsplash.com/photo-1628187526295-3ccbe4e2ad54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80' alt='/'></img>
+                    <img className='rounded-xl '  src='https://images.unsplash.com/photo-1628187526295-3ccbe4e2ad54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80' alt='/'></img>
                 </div> 
             </div>
         </div>

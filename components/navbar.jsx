@@ -18,24 +18,24 @@ const navbar = () => {
         <div className={'fixed w-full h-auto shadow-xl z-[100] bg-[#4d4740]'}>
             <div className='flex justify-between items-center w-full h-full  2xl:px-16  p-2'>
                 <Link  href={'/'}>
-                    <Image className='cursor-pointer' src="/../public/assets/GA_4.png" alt="/" width='110' height='110' /> 
+                    <Image className='cursor-pointer' src="/../public/assets/GA_4.png" alt="/" width='100' height='100' /> 
                 </Link>
                 <div>
-                    <ul className='hidden md:flex mr-20'>
+                    <ul className='hidden md:flex mr-20 '>
                         <a href='/#home'>
-                            <li className='ml-10 text-sm uppercase text-[#f7e5ce] hover:border-b'>Home</li>
+                            <li className='ml-10 text-lg uppercase text-[#f7e5ce] hover:border-b '>Home</li>
                         </a>
                         <a href='/#about'>
-                            <li className='ml-10 text-sm uppercase text-[#f7e5ce] hover:border-b'>About</li>
+                            <li className='ml-10 text-lg uppercase text-[#f7e5ce] hover:border-b'>About</li>
                         </a>
                         <a href='/#skills'>
-                            <li className='ml-10 text-sm uppercase text-[#f7e5ce] hover:border-b'>Skills</li>
+                            <li className='ml-10 text-lg uppercase text-[#f7e5ce] hover:border-b'>Skills</li>
                         </a>
                         <a href='/#projects'>
-                            <li className='ml-10 text-sm uppercase text-[#f7e5ce] hover:border-b'>Projects</li>
+                            <li className='ml-10 text-lg uppercase text-[#f7e5ce] hover:border-b'>Projects</li>
                         </a>
                         <a href='/#contact'>
-                            <li className='ml-10 text-sm uppercase text-[#f7e5ce] hover:border-b'>Contact</li>
+                            <li className='ml-10 text-lg uppercase text-[#f7e5ce] hover:border-b'>Contact</li>
                         </a>
                     </ul>
                     <div onClick={handleNav} className='md:hidden mr-10'>
@@ -57,24 +57,24 @@ const navbar = () => {
                             </div>
                         </div>
                         <div className='border-b border-gray-400 '>
-                            <h3 className='w-[85%] md:w-[90%] py-4 text-[#4d4740]'>Let's build something together</h3>
+                            <h3 className='w-[85%] md:w-[90%] py-4 text-[#4d4740] text-lg'>Let's build something together</h3>
                         </div>
                         <div className='py-4 flex flex-col'>
-                            <ul className='uppercase'>
+                            <ul className='uppercase font-normal'>
                                 <a href={'/#home'}>
-                                    <li onClick={() => setNav(false)} className='py-4 text-[#4d4740] text-sm ml-2'>Home</li>
+                                    <li onClick={() => setNav(false)} className='py-4 text-[#4d4740] text-base ml-2 '>Home</li>
                                 </a>
                                 <a href={'/#about'}>
-                                    <li onClick={() => setNav(false)} className='py-4 text-[#4d4740] text-sm ml-2'>About</li>
+                                    <li onClick={() => setNav(false)} className='py-4 text-[#4d4740] text-base ml-2'>About</li>
                                 </a>
                                 <a href={'/#skills'}>
-                                    <li onClick={() => setNav(false)} className='py-4 text-[#4d4740] text-sm ml-2'>Skills</li>
+                                    <li onClick={() => setNav(false)} className='py-4 text-[#4d4740] text-base ml-2'>Skills</li>
                                 </a>
                                 <a href={'/#projects'}>
-                                    <li onClick={() => setNav(false)} className='py-4 text-[#4d4740] text-sm ml-2'>Projects</li>
+                                    <li onClick={() => setNav(false)} className='py-4 text-[#4d4740] text-base ml-2'>Projects</li>
                                 </a>
                                 <a href={'/#contact'}>
-                                    <li onClick={() => setNav(false)} className='py-4 text-[#4d4740] text-sm ml-2'>Contact</li>
+                                    <li onClick={() => setNav(false)} className='py-4 text-[#4d4740] text-base ml-2'>Contact</li>
                                 </a>
                             </ul>
                             <div className='pt-40'>
